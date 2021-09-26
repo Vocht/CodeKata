@@ -1,4 +1,4 @@
-package rover.java.main.commands;
+package rover.java.commands;
 
 public interface Command {
     void exec();

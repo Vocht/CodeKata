@@ -1,7 +1,7 @@
-package rover.java.main.strategy;
+package rover.java.strategy;
 
-import rover.java.main.enums.Facing;
-import rover.java.main.Coordinate;
+import rover.java.Coordinate;
+import rover.java.enums.Facing;
 
 public class WestFacingStrategy implements FacingStrategy {
     @Override

@@ -1,7 +1,7 @@
-package rover.java.main.commands;
+package rover.java.commands;
 
-import rover.java.main.enums.Motion;
-import rover.java.main.Rover;
+import rover.java.enums.Motion;
+import rover.java.Rover;
 
 public class BackCommand implements Command {
     private final Rover rover;

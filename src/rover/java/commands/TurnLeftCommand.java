@@ -1,7 +1,7 @@
-package rover.java.main.commands;
+package rover.java.commands;
 
-import rover.java.main.enums.Direction;
-import rover.java.main.Rover;
+import rover.java.enums.Direction;
+import rover.java.Rover;
 
 public class TurnLeftCommand implements Command {
     private final Rover rover;

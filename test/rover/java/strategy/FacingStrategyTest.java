@@ -1,12 +1,8 @@
 package rover.java.strategy;
 
 import org.junit.jupiter.api.Test;
-import rover.java.main.Coordinate;
-import rover.java.main.enums.Facing;
-import rover.java.main.strategy.EastFacingStrategy;
-import rover.java.main.strategy.NorthFacingStrategy;
-import rover.java.main.strategy.SouthFacingStrategy;
-import rover.java.main.strategy.WestFacingStrategy;
+import rover.java.Coordinate;
+import rover.java.enums.Facing;
 
 import static org.junit.jupiter.api.Assertions.*;
 

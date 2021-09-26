@@ -2,14 +2,12 @@ package rover.java;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import rover.java.main.Coordinate;
-import rover.java.main.Rover;
-import rover.java.main.commands.BackCommand;
-import rover.java.main.commands.ForwardCommand;
-import rover.java.main.commands.TurnLeftCommand;
-import rover.java.main.commands.TurnRightCommand;
-import rover.java.main.enums.Facing;
-import rover.java.main.strategy.*;
+import rover.java.commands.BackCommand;
+import rover.java.commands.ForwardCommand;
+import rover.java.commands.TurnLeftCommand;
+import rover.java.commands.TurnRightCommand;
+import rover.java.enums.Facing;
+import rover.java.strategy.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

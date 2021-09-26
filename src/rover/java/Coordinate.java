@@ -1,4 +1,4 @@
-package rover.java.main;
+package rover.java;
 
 public class Coordinate {
     private final int x;

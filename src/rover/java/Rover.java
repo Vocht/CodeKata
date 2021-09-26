@@ -1,10 +1,10 @@
-package rover.java.main;
+package rover.java;
 
-import rover.java.main.enums.Facing;
-import rover.java.main.commands.Command;
-import rover.java.main.enums.Direction;
-import rover.java.main.enums.Motion;
-import rover.java.main.strategy.FacingStrategy;
+import rover.java.commands.Command;
+import rover.java.enums.Direction;
+import rover.java.enums.Facing;
+import rover.java.enums.Motion;
+import rover.java.strategy.FacingStrategy;
 
 public class Rover {
     private Coordinate coordinate;
